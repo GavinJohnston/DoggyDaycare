@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "GB0kaev6OH8+WN/MxQodh1w0406zwhUFHWdpvSTdGw9M9we89FciiFHDfBh9SxGKLqe06TPXMdrHKpXYaTa3Cw==",
+  "success": true,
+  "projectFilePath": "/Users/gavin/Projects/DoggyDaycare/DoggyDaycare/DoggyDaycare.csproj",
+  "expectedPackageFiles": [
+    "/Users/gavin/.nuget/packages/microsoft.data.sqlite/6.0.4/microsoft.data.sqlite.6.0.4.nupkg.sha512",
+    "/Users/gavin/.nuget/packages/microsoft.data.sqlite.core/6.0.4/microsoft.data.sqlite.core.6.0.4.nupkg.sha512",
+    "/Users/gavin/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.0.6/sqlitepclraw.bundle_e_sqlite3.2.0.6.nupkg.sha512",
+    "/Users/gavin/.nuget/packages/sqlitepclraw.core/2.0.6/sqlitepclraw.core.2.0.6.nupkg.sha512",
+    "/Users/gavin/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.0.6/sqlitepclraw.lib.e_sqlite3.2.0.6.nupkg.sha512",
+    "/Users/gavin/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.0.6/sqlitepclraw.provider.e_sqlite3.2.0.6.nupkg.sha512",
+    "/Users/gavin/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

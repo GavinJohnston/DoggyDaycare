@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{C99F9ED1-4998-45BC-B30B-CB1A8C480C16}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.DoggyDaycare PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DoggyDaycare/Pages/Create.cshtml.cs">
+    <Files>
+      <File FileName="DoggyDaycare/appsettings.json" Line="15" Column="1" />
+      <File FileName="DoggyDaycare/Pages/Create.cshtml.cs" Line="43" Column="36" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DoggyDaycare" expanded="True">
+            <Node name="DoggyDaycare" expanded="True">
+              <Node name="Pages" expanded="True">
+                <Node name="Create.cshtml" expanded="True">
+                  <Node name="Create.cshtml.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
