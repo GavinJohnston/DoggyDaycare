@@ -1,0 +1,39 @@
+﻿@page
+@model DoggyDaycare.Pages.EditModel
+@{
+}
+
+<h1>Update Appointment</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <input type="hidden" asp-for="DaycareRecord.Id" />
+            <div class="form-group">
+                <label asp-for="DaycareRecord.Owner" class="control-label"></label>
+                <input type="text" asp-for="DaycareRecord.Owner" class="form-control" />
+                <span asp-validation-for="DaycareRecord.Owner" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DaycareRecord.Name" class="control-label"></label>
+                <input asp-for="DaycareRecord.Name" class="form-control" />
+                <span asp-validation-for="DaycareRecord.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DaycareRecord.Date" class="control-label"></label>
+                <input asp-for="DaycareRecord.Date" class="form-control" />
+                <span asp-validation-for="DaycareRecord.Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DaycareRecord.Duration" class="control-label"></label>
+                <input asp-for="DaycareRecord.Duration" class="form-control" />
+                <span asp-validation-for="DaycareRecord.Duration" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Update" class="btn btn-primary" />
+                <a button type="button" class="btn btn-info" asp-page="Index" asp-route-id="">Return</a>
+            </div>
+        </form>
+    </div>
+</div>

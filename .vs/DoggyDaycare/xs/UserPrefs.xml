@@ -1,11 +1,14 @@
 ﻿<Properties StartupConfiguration="{C99F9ED1-4998-45BC-B30B-CB1A8C480C16}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.DoggyDaycare PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DoggyDaycare/Pages/Create.cshtml.cs">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="DoggyDaycare/Pages/Create.cshtml">
     <Files>
       <File FileName="DoggyDaycare/appsettings.json" Line="15" Column="1" />
-      <File FileName="DoggyDaycare/Pages/Create.cshtml.cs" Line="43" Column="36" />
+      <File FileName="DoggyDaycare/Pages/Create.cshtml.cs" Line="24" Column="10" />
+      <File FileName="DoggyDaycare/Pages/Index.cshtml" Line="11" Column="5" />
+      <File FileName="DoggyDaycare/Pages/Create.cshtml" Line="11" Column="17" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,9 +16,7 @@
           <Node name="DoggyDaycare" expanded="True">
             <Node name="DoggyDaycare" expanded="True">
               <Node name="Pages" expanded="True">
-                <Node name="Create.cshtml" expanded="True">
-                  <Node name="Create.cshtml.cs" selected="True" />
-                </Node>
+                <Node name="Create.cshtml" expanded="True" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -26,8 +27,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.DoggyDaycare PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

@@ -1,21 +1,19 @@
 ﻿@page
-@model IndexModel
+@model DoggyDaycare.Pages.ViewModel
 @{
-    ViewData["Title"] = "Home page";
 }
 
-<h1>Home</h1>
+<h1>Future Appointments</h1>
 <hr />
 <a button type="button" class="btn btn-success" asp-area="" asp-page="/Create">
     Add Appointment
 </a>
 
-<a button type="button" class="btn btn-success" asp-area="" asp-page="/View">
-    Future Appointments
+<a button type="button" class="btn btn-success" asp-area="" asp-page="/Index">
+    Todays Appointments
 </a>
-<br /><br />
-<h2>Todays Appointments</h2>
-
+<br />
+<br />
 <table id="records" class="table">
     <thead>
         <tr>
@@ -38,7 +36,7 @@
     </thead>
     <tbody>
         @foreach (var record in Model.Records)
-            {
+        {
         <tr class="list-row">
             <td>@Html.DisplayFor(modelItem => record.Id)</td>
             <td>@Html.DisplayFor(modelItem => record.Owner)</td>
@@ -50,7 +48,6 @@
                 <a button type="button" class="btn btn-primary" asp-page="/Edit" asp-route-id="@record.Id">Update</a>
             </td>
         </tr>
-            }
+        }
     </tbody>
 </table>
-

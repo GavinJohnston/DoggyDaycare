@@ -23,16 +23,20 @@ namespace DoggyDaycare.Pages
             _configuration = configuration;
         }
 
+        // Make the model accessable  
         [BindProperty]
         public DaycareModel Daycare { get; set; }
 
+
         public IActionResult OnPost()
         {
+            // if model is empty on post do...
             if (!ModelState.IsValid)
             {
                 return Page();
             }
 
+            // send the data to the db
             using (var connection = new SqliteConnection(_configuration.GetConnectionString("ConnectionString")))
             {
                 connection.Open();
@@ -43,6 +47,7 @@ namespace DoggyDaycare.Pages
                 connection.Close();
             }
 
+            //finally, return to index
             return RedirectToPage("./index");
         }
     }

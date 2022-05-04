@@ -28,12 +28,11 @@
                 <input asp-for="Daycare.Duration" class="form-control" />
                 <span asp-validation-for="Daycare.Duration" class="text-danger"></span>
             </div>
+            <br />
             <div class="form-group">
+                <a button type="button" class="btn btn-info" asp-page="Index" asp-route-id="">Return</a>
                 <input type="submit" value="Create" class="btn btn-success" />
             </div>
         </form>
     </div>
-</div>
-<div>
-    <a asp-page="Index">Return</a>
 </div>
